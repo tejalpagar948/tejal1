@@ -1,0 +1,78 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Glass Antiqua', cursive;
+background-color:palevioletred;
+}
+
+h2{
+  text-align: center;
+}
+
+.pinky{
+  display: block;
+}
+
+#cont{
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+form{
+  background-color: white;
+color: palevioletred;
+width: 20%;
+padding: 40px;
+border-radius: 5px;
+}
+a{
+  text-decoration: none;
+  color: black
+}
+
+form h1{
+  text-align: center;
+  font-size: 50px;
+}
+
+
+form .paisa{
+  width: 90.3%;
+  border-radius: 5px;
+  height: 35px;
+  border: 1.5px solid gray;
+  padding-left: 30px;
+}
+form #pp{
+  display: flex;
+  justify-content: space-between;
+}
+.AA{
+background-color: palevioletred;
+border: 2px solid grey;
+width: 30%;
+height: 30px;
+
+border-radius: 50px;
+color: white;
+}
+
+.fa-user{
+  position: absolute;
+  top: 50%;
+  left: 3%;
+  font-size: 0.9rem;
+}
+#user{
+  position: relative;
+}
+
+
+@media (max-width:600px)
+{
+  form{
+  width: 60%;
+  }
+}
